@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CyberDisc - WebGL</title>
+<link rel="stylesheet" type="text/css" href="tsawebb2020.css">
+<script src="TemplateData/UnityProgress.js"></script>  
+ <script src="Build/UnityLoader.js"></script>
+  <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/TSA2020WebGL.json", {onProgress: UnityProgress});
+    </script>
+</head>
+
+<body>
+
+ <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Cyberdisc - A THINC TSA game. </div>
+      </div>
+    </div>
+
+</body>
+</html>
