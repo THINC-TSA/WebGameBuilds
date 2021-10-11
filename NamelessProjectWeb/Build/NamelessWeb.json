@@ -1,0 +1,13 @@
+{
+"companyName": "THINCGames",
+"productName": "TheNameless",
+"dataUrl": "NamelessWeb.data.unityweb",
+"asmCodeUrl": "NamelessWeb.asm.code.unityweb",
+"asmMemoryUrl": "NamelessWeb.asm.memory.unityweb",
+"asmFrameworkUrl": "NamelessWeb.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
